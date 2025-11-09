@@ -185,26 +185,9 @@ Medium (detailed):
 
 "I built a small demo that forces an Ollama model to answer *only* from SQL query results. The repo compares plain JSON vs a compact TOON encoding to show token savings. It includes a seeder, runnable examples, and clear prompts to avoid hallucinations. Try it locally: seed the DB, run the examples, and compare token counts. Code: <repo link>"
 
-Long (LinkedIn article / thread opener):
-
-"Why techniques to ground LLMs matter: In this demo I show a practical pattern for deterministic answers from a local Ollama model. The repo takes SQLite query results and passes them as the only source of truth to the model. I compare plain JSON with a compact TOON encoding that reduces token usage substantially for tabular query results. Included: a seeder (Faker), runnable examples, and prompts that explicitly instruct the model to avoid external knowledge. If you want to reproduce: clone, seed the DB, then run the TOON vs JSON examples and observe token counts & answers. Link + steps: <repo link>"
-
-Suggested hashtags: `#LLM #Ollama #SQLite #PromptEngineering #MLOps #DataScience`
-
----
-
-## Napkin.ai / PDF export tips
-
-- Napkin.ai works best with a single structured document and inline images. Use this markdown as the source.
-- Add short GIFs (screen-recordings) for the two example runs (with and without TOON). Place them near the token-comparison section.
-- For PDF: render the markdown with your favorite tool (VS Code markdown preview -> Print to PDF, or use pandoc for more control).
-
-Example pandoc command (optional):
-
 ```powershell
 pandoc docs/PROJECT_DOCUMENTATION.md -o Ollama_SQLite_Demo.pdf --pdf-engine=xelatex
 ```
-
 ---
 
 ## FAQ
@@ -231,10 +214,3 @@ This project uses the MIT License — see the top-level `LICENSE` file.
 
 ---
 
-If you'd like, I can:
-
-- Add example GIF/PNG files into `docs/assets` and update this document to reference them.
-- Produce a ready-made PDF using pandoc in this environment and attach the result (if allowed).
-- Create a short README blurb specifically optimized for LinkedIn and a suggested image text overlay.
-
-Tell me which of those you want next and I'll prepare it.
