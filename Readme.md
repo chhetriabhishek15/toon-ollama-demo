@@ -49,16 +49,4 @@ Notes and tips
 License
 This project is released under the MIT license — see `LICENSE`.
 
-Sharing on LinkedIn
-- A short post: "Demo: grounding Ollama model answers in SQLite results (JSON vs TOON) — includes seeder and examples. Check it out: <repo link>"
-- Add a short GIF or screenshot of the script output for better engagement.
-
-If you'd like, I can also:
-- rename `Readme.md` to `README.md`
-- run a quick smoke test (run `seeder.py` and one example) in this environment and report the output
-- open a PR-ready commit with these changes and a suggested GitHub repo description and topics
-
-Output tokens 1036
-Total tokens 1855
-
 
